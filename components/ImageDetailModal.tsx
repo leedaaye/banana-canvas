@@ -51,7 +51,7 @@ const ImageDetailModal: React.FC<ImageDetailModalProps> = ({ item, onClose, onRe
           <div className="flex items-center justify-between p-6 border-b border-gray-800">
             <div className="flex items-center gap-2 text-banana-500">
               <Sparkles className="w-5 h-5" />
-              <h2 className="text-lg font-bold text-white">Details</h2>
+              <h2 className="text-lg font-bold text-white">详情</h2>
             </div>
             <button 
               onClick={onClose}

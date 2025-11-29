@@ -316,7 +316,7 @@ function App() {
                   `}
                 >
                   <div className={`text-sm font-medium ${uiModel === UiModelSelection.NANO ? 'text-banana-400' : 'text-gray-400'}`}>Nano Banana</div>
-                  <div className="text-[10px] text-gray-600">Flash Speed</div>
+                  <div className="text-[10px] text-gray-600">闪电速度</div>
                   {uiModel === UiModelSelection.NANO && <div className="absolute top-0 right-0 w-2 h-2 bg-banana-500 rounded-bl-full shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>}
                 </button>
 
@@ -331,8 +331,8 @@ function App() {
                   `}
                 >
                   <div className={`text-sm font-medium ${uiModel === UiModelSelection.PRO ? 'text-purple-400' : 'text-gray-400'}`}>Nano Banana Pro</div>
-                  <div className="text-[10px] text-gray-600">High Quality</div>
-                  <div className="absolute -top-1.5 -right-1.5 bg-gradient-to-r from-purple-600 to-pink-600 text-[8px] text-white px-1.5 py-0.5 rounded-full font-bold shadow-lg z-10">NEW</div>
+                  <div className="text-[10px] text-gray-600">高品质</div>
+                  <div className="absolute -top-1.5 -right-1.5 bg-gradient-to-r from-purple-600 to-pink-600 text-[8px] text-white px-1.5 py-0.5 rounded-full font-bold shadow-lg z-10">新</div>
                 </button>
               </div>
             </div>
@@ -437,7 +437,7 @@ function App() {
             {isLoading ? (
               <>
                 <div className="w-4 h-4 border-2 border-gray-500 border-t-white rounded-full animate-spin"></div>
-                <span>GENERATING...</span>
+                <span>生成中...</span>
               </>
             ) : (
               <>
@@ -492,7 +492,7 @@ function App() {
               
               {/* Center Title */}
               <h2 className="text-2xl font-black tracking-widest bg-gradient-to-r from-blue-400 via-purple-400 to-banana-500 bg-clip-text text-transparent uppercase italic">
-                Explore Gallery
+                探索画廊
               </h2>
 
               {/* Right Placeholder (Empty for balance if needed, or actions) */}
@@ -562,8 +562,8 @@ function App() {
                  <ImageIcon className="w-10 h-10 opacity-30" />
               </div>
               <div className="text-center">
-                <p className="text-lg font-medium text-gray-500">Canvas Empty</p>
-                <p className="text-sm opacity-50">Create your first masterpiece</p>
+                <p className="text-lg font-medium text-gray-500">画布为空</p>
+                <p className="text-sm opacity-50">创建你的第一个杰作</p>
               </div>
             </div>
           ) : (
