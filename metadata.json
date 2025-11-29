@@ -1,0 +1,5 @@
+{
+  "name": "Banana Canvas - AI 绘图工坊",
+  "description": "基于 Gemini Nano Banana 模型构建的专业级 AI 图像生成工具。支持文生图、参考图生图，并提供持久化的历史画廊。",
+  "requestFramePermissions": []
+}
